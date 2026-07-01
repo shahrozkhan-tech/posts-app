@@ -1,83 +1,126 @@
-# 📝 Complete Post App
+# 📝 Posts App
 
-[![GitHub license](https://img.shields.io/github/license/sarmad-tabassum/complete-post-app?style=flat-square)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/sarmad-tabassum/complete-post-app?style=flat-square)](https://github.com/sarmad-tabassum/complete-post-app/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/sarmad-tabassum/complete-post-app?style=flat-square)](https://github.com/sarmad-tabassum/complete-post-app/network)
+A modern and responsive Posts Application built with React. Users can browse posts, view post details, and enjoy a clean, user-friendly interface.
 
-A complete, responsive full-stack social publishing platform where users can create accounts, manage their profiles, and publish dynamic text content. Built with a focus on seamless user experience, secure backend integration, and clean architecture.
+## 🚀 Live Demo
 
----
-
-## 🚀 Key Features
-
-- **Secure User Authentication:** Built-in SignUp, Login, and SignOut functionalities powered securely by Supabase Auth.
-- **Dynamic Content Publishing (CRUD):** Users can seamlessly create, read, and manage their published posts in real-time.
-- **User Profile Management:** Customized user profiles showcasing user-specific information and activity.
-- **Robust Backend Integration:** Utilizes Supabase for database operations, environment configuration, and state management.
-- **Responsive UI:** Clean, modern, and high-contrast user interface that works beautifully across all desktop and mobile devices.
-
-## 🛠️ Built With
-
-- **Frontend:** HTML5, CSS3 (Modern Flexbox/Grid layouts), JavaScript (ES6+)
-- **Backend-as-a-Service (BaaS):** Supabase (Authentication & PostgreSQL Database)
-- **Deployment:** GitHub Pages / Vercel
+🔗 https://shahrozkhan-tech.github.io/posts-app/
 
 ---
 
-## 📸 Application Preview
+## ✨ Features
 
-> *Tip: Add a high-quality screenshot or a walkthrough GIF of your login screen or dashboard below to hook visitors instantly!*
-<!-- <img src="assets/dashboard-preview.png" alt="App Dashboard Preview" width="100%"/> -->
+- 📄 Display all posts
+- 🔍 View individual post details
+- ⚡ Fast and responsive UI
+- 📱 Mobile-friendly design
+- 🎨 Clean and modern interface
+- ♻️ Reusable React components
 
 ---
 
-## ⚙️ Installation & Local Setup
+## 🛠️ Tech Stack
 
-Follow these steps to run this project locally on your machine:
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- React Router (if used)
+- Git & GitHub Pages
 
-### Prerequisites
-Make sure you have a modern web browser and basic knowledge of setting up environment variables.
+---
 
-### Steps
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/sarmad-tabassum/complete-post-app.git](https://github.com/sarmad-tabassum/complete-post-app.git)
-Navigate into the project directory:
+## 📂 Project Structure
 
-Bash
-cd complete-post-app
-Configure Environment Variables:
-Create a configuration or environment setup (if using build tools) and plug in your Supabase Credentials:
+```
+posts-app/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.js
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
 
-Code snippet
-SUPABASE_URL=your_supabase_project_url
-SUPABASE_ANON_KEY=your_supabase_anonymous_key
-Launch the app:
-Open index.html directly in your browser or run it using a local development server like Live Server in VS Code.
+---
 
-🤝 Contributing
-Contributions make the open-source community a fantastic place to learn, inspire, and create. Any contributions you make are highly appreciated.
+## ⚙️ Installation
 
-Fork the Project
+Clone the repository
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
+```bash
+git clone https://github.com/shahrozkhan-tech/posts-app.git
+```
 
-Commit your Changes (git commit -m 'Add some AmazingFeature')
+Go to the project directory
 
-Push to the Branch (git push origin feature/AmazingFeature)
+```bash
+cd posts-app
+```
 
-Open a Pull Request
+Install dependencies
 
-📄 License
-Distributed under the MIT License. See LICENSE for more details.
+```bash
+npm install
+```
 
-📞 Contact
-Sarmad Tabassum - [Your LinkedIn or Email]
+Start the development server
 
-Project Link: https://shahrozkhan-tech.github.io/posts-app/
+```bash
+npm run dev
+```
 
-⭐ If you find this project useful, please consider giving it a star!
+Build for production
 
+```bash
+npm run build
+```
 
-### Pro-Tip:
-* Is project me aap ne **Supabase Auth** aur **Database** manage kiya hai, jo k ek front-end developer k lye bht barhi baat hoti hai. README me environment variables ka section zaroor rakhye ga taake recruiter ko pata chalay aap ko backend config aur API initialization ka sahi idea hai!
+---
+
+## 📸 Screenshots
+
+Add screenshots of your application here.
+
+Example:
+
+```
+screenshots/
+├── home.png
+├── post-details.png
+```
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using **GitHub Pages**.
+
+Live Website:
+
+https://shahrozkhan-tech.github.io/posts-app/
+
+---
+
+## 👨‍💻 Author
+
+**Shahroz Khan**
+
+- GitHub: https://github.com/shahrozkhan-tech
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you like this project, don't forget to ⭐ star the repository.
