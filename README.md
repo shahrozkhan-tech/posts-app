@@ -74,7 +74,7 @@ Distributed under the MIT License. See LICENSE for more details.
 📞 Contact
 Sarmad Tabassum - [Your LinkedIn or Email]
 
-Project Link: https://github.com/sarmad-tabassum/complete-post-app
+Project Link: https://shahrozkhan-tech.github.io/posts-app/
 
 ⭐ If you find this project useful, please consider giving it a star!
 
